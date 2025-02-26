@@ -1,12 +1,12 @@
 # Node.js Notes for Professionals - Apresentação
 
-## 📖 Sobre o Repositório
-O Repositório *Node.js Notes for Professionals* é uma coletânea de informações e boas práticas sobre o desenvolvimento com Node.js, compilada a partir de conteúdos da Stack Overflow Documentation.
+## 📖 Sobre o Livro
+O livro *Node.js Notes for Professionals* é uma coletânea de informações e boas práticas sobre o desenvolvimento com Node.js, compilada a partir de conteúdos da Stack Overflow Documentation.
 
-🔗 **Download do Material Gratuito**: [https://books.goalkicker.com/NodeJSBook/](https://books.goalkicker.com/NodeJSBook/)
+🔗 **Download gratuito**: [https://books.goalkicker.com/NodeJSBook/](https://books.goalkicker.com/NodeJSBook/)
 
 ## 📌 Tópicos Abordados
-O Repositório cobre diversos aspectos do Node.js, incluindo:
+O livro cobre diversos aspectos do Node.js, incluindo:
 - Introdução ao Node.js
 - Módulos e gerenciamento de pacotes (NPM)
 - Trabalhando com eventos e streams
@@ -17,7 +17,7 @@ O Repositório cobre diversos aspectos do Node.js, incluindo:
 - Segurança e boas práticas
 
 ## 🛠 Exemplos Práticos
-Aqui estão alguns exemplos do Repositório:
+Aqui estão alguns exemplos extraídos do livro:
 
 ### 🔹 Criando um Servidor HTTP Simples
 ```javascript
@@ -46,7 +46,7 @@ app.listen(3000, () => console.log('Servidor Express rodando na porta 3000'));
 ```
 
 ## 🎯 Objetivo da Apresentação
-O objetivo desta apresentação é fornecer um resumo dos principais tópicos do NodeJS e demonstrar como aplicar os conceitos em projetos reais.
+O objetivo desta apresentação é fornecer um resumo dos principais tópicos do livro e demonstrar como aplicar os conceitos em projetos reais com Node.js.
 
 ## 📂 Estrutura do Repositório
 - `README.md` - Este documento
