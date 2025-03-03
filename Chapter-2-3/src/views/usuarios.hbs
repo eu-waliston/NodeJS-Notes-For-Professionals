@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>{{titulo}}</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .card { width: 200px; padding: 10px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); }
+        img { width: 100px; height: 100px; border-radius: 50%; }
+    </style>
+</head>
+<body>
+    <h1>{{titulo}}</h1>
+    <div class="container">
+        {{#each usuarios}}
+            <div class="card">
+                <img src="{{imagem}}" alt="Foto de {{nome}}">
+                <h3>{{nome}}</h3>
+                {{!-- <p>{{email}}</p> --}}
+            </div>
+        {{/each}}
+    </div>
+</body>
+</html>

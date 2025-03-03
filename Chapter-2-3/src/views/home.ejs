@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title><%= titulo %></title>
+</head>
+<body>
+    <h1>Bem-vindo ao EJS!</h1>
+    <p>Esta é uma página simples renderizada com Express e EJS.</p>
+    <ul>
+        <% const itens = ['Item 1', 'Item 2', 'Item 3']; %>
+        <% itens.forEach(item => { %>
+            <li><%= item %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>
