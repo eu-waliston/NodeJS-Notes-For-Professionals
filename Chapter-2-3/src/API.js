@@ -33,6 +33,27 @@ app.delete('/myPath', function (req, res, next) {})
 
 // app.listen(8000, "localhost")
 
+//Section 3.8: Error Handling
+
+//catch 404 and foward to error handler
+app.use(function(req,res,next) {
+    let err = new Error("Not Found");
+    err.status = 404;
+
+    //pass error to the next matching route
+    next(err)
+})
+
+//handle error, print stacktrace
+app.use(function(err, req,res,next){
+    res.status(err.status || 500);
+
+    res.render("error", {
+        message: err.message,
+        error: err
+    })
+})
+
 express()
 .use('/api/v1/', greetMiddleware({ greeting:'Hello world' }))
 .listen(8080);
