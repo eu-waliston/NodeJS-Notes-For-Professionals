@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/JSON-api.js"
+    "dev": "nodemon src/APP.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
+    "express-reverse": "^0.3.2",
     "hbs": "^4.2.0",
     "jade": "^1.11.0"
   },
